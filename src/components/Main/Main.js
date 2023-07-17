@@ -7,8 +7,6 @@ export default function Main() {
   return (
     <div className="Main">
       <h1>Main here works!!</h1>
-      <Pokedex/>
-      <PvP/>
     </div>
   );
 }

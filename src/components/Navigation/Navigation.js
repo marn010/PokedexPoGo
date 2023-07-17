@@ -1,20 +1,22 @@
 import "./Navigation.css";
 
+import { Link } from "react-router-dom";
+
 export default function Navigation() {
   return (
     <div className="NavBar">
-      <p>PokemonGo</p>
+      <Link to="/">PokemonGo</Link>
       <div className="Navitem">
-        <p>Home</p>
+        <Link to="/">Home </Link>
       </div>
       <div className="Navitem">
-        <p>Pokedex</p>
+        <Link to="/Pokedex">Pokedex </Link>
       </div>
       <div className="Navitem">
-        <p>PvP</p>
+        <Link to="/PvP">PvP</Link>
       </div>
       <div className="Navitem">
-        <p>Raids</p>
+      <Link to="/Raids">Raids </Link>
       </div>
       <div className="Navitem">
         <p></p>
