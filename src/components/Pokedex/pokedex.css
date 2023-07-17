@@ -1,0 +1,24 @@
+.Pokedex{
+    color: blueviolet;
+    text-align: center;
+}
+
+
+/* Pokemon */
+
+.Pokemon{
+    color: brown;
+    
+}
+.Pokemon h1{
+    display: block;
+    width: 100%;
+}
+.PokeResume{
+    display: flex;
+}
+.PokePic,.PokeInfo{
+    color: white;
+    background-color: red;
+    border: blue solid 2px;
+}

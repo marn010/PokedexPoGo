@@ -1,0 +1,15 @@
+.PvP{
+    display: flex;
+    flex-wrap: wrap;
+    border: blue solid 1px;
+    justify-content: center;
+    text-align: center;
+}
+.PvP :first-child{
+    width: 100%;
+    
+}
+.PvP div:first-of-type{
+    text-align: center;
+    color: pink;   
+}
