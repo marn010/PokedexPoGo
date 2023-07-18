@@ -1,0 +1,21 @@
+{
+   "pokes":[
+      {
+         "id":"0001",
+         "Name":"Bulbasaur",
+         "PokePic":"/assets/img/pokes/0001.png",
+         "Types":[
+            {
+               "Tipe1":"Planta",
+               "Type2":"Veneno"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":"Hoja Afilada"
+      }
+   ]
+}
