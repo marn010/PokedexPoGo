@@ -18,9 +18,14 @@
     flex-wrap: wrap;
     border: solid 1px red;
 }
-
 .PokemonPic{
+    display: flex;
     width: 100%;
+    justify-content: center;
+}
+.PokemonPic img{
+    width: 100%;
+    max-width: 300px;
 }
 .PokemonInfo{
     width: 100%;
