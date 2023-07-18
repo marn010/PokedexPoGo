@@ -7,7 +7,28 @@
          "Types":[
             {
                "Tipe1":"Planta",
-               "Type2":"Veneno"
+               "ColorType1":"#",
+               "Type2":"Veneno",
+               "ColorType2":"#"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":"Hoja Afilada"
+      },
+      {
+         "id":"0002",
+         "Name":"Ivysaur",
+         "PokePic":"/assets/img/pokes/0002.png",
+         "Types":[
+            {
+               "Tipe1":"Planta",
+               "ColorType1":"#",
+               "Type2":"Veneno",
+               "ColorType2":"#"
             }
          ],
          "FastMove":[
