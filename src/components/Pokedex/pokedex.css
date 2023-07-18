@@ -1,12 +1,22 @@
 .Pokedex{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
     color: blueviolet;
     text-align: center;
     border: solid 1px pink;
 }
+.Pokedex h2{
+    width: 100% ;
+    display: block;
+}
 
 .Pokemon{
     display: flex;
+    width: 28%;
+    margin: 0% 2.5% 2.5% 2.5%;
     flex-wrap: wrap;
+    border: solid 1px red;
 }
 
 .PokemonPic{

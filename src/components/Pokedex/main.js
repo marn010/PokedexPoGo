@@ -11,20 +11,32 @@ export default function pokedex() {
       <h2>Pokedex Page!</h2>
       {db.pokes.map((item,id) => {
         return (
-          <div className="Pokemon">
+          <div className="Pokemon" key={id}>
             <div className="PokemonPic">
-              <Link to="/Pokemon">
+              <Link to="/Pokemon" 
+              state={{
+                id:db.pokes[id].id,
+                db:db
+              }}
+              >
                 <img src={item.PokePic} alt={item.Name} />
               </Link>
             </div>
             <div className="PokemonInfo">
-              <p>
-                # {db.pokes[id].id} 
-                {db.pokes[id].Name}
-              </p>
+              <text>
+                # {db.pokes[id].PokeNumber +" "+ db.pokes[id].Name}
+              </text>
             </div>
             <div>
-              <p>Tipos</p>
+            <p>Tipos: </p>
+              {
+                db.pokes[id].Types.map((item,idx)=>{
+                  return(
+                    <text>{item.Type}  </text>
+                  );
+                })
+              }
+              
             </div>
           </div>
         );

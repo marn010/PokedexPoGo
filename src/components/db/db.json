@@ -1,15 +1,18 @@
 {
    "pokes":[
       {
-         "id":"0001",
+         "id":"0",
+         "PokeNumber":"0001",
          "Name":"Bulbasaur",
          "PokePic":"/assets/img/pokes/0001.png",
          "Types":[
             {
-               "Tipe1":"Planta",
-               "ColorType1":"#",
-               "Type2":"Veneno",
-               "ColorType2":"#"
+               "Type":"Planta",
+               "ColorType":"#"
+            },
+            {
+               "Type":"Veneno",
+               "ColorType":"#"
             }
          ],
          "FastMove":[
@@ -17,18 +20,26 @@
                "FastMove":"Placaje"
             }
          ],
-         "ChargedMove":"Hoja Afilada"
+         "ChargedMove":[
+            {
+               "ChargedMove":"Hoja Afilada"
+            }
+         ],
+         "Avaible":"Y"
       },
       {
-         "id":"0002",
+         "id":"1",
+         "PokeNumber":"0002",
          "Name":"Ivysaur",
          "PokePic":"/assets/img/pokes/0002.png",
          "Types":[
             {
-               "Tipe1":"Planta",
-               "ColorType1":"#",
-               "Type2":"Veneno",
-               "ColorType2":"#"
+               "Type":"Planta",
+               "ColorType":"#"
+            },
+            {
+               "Type":"Veneno",
+               "ColorType":"#"
             }
          ],
          "FastMove":[
@@ -36,7 +47,39 @@
                "FastMove":"Placaje"
             }
          ],
-         "ChargedMove":"Hoja Afilada"
+         "ChargedMove":[
+            {
+               "ChargedMove":"Hoja Afilada"
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"2",
+         "PokeNumber":"0003",
+         "Name":"Venasaur",
+         "PokePic":"/assets/img/pokes/0003.png",
+         "Types":[
+            {
+               "Type":"Planta",
+               "ColorType":"#"
+            },
+            {
+               "Type":"Veneno",
+               "ColorType":"#"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":"Hoja Afilada"
+            }
+         ],
+         "Avaible":"Y"
       }
    ]
 }
