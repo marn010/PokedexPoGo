@@ -1,7 +1,7 @@
 import "./Main.css";
 
-import Pokedex from "../Pokedex/main";
-import PvP from "../PvP/main";
+/* import Pokedex from "../Pokedex/main";
+import PvP from "../PvP/main"; */
 
 export default function Main() {
   return (

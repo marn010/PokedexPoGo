@@ -13,3 +13,13 @@
     text-align: center;
     color: pink;   
 }
+
+.PvPGL{
+    display: flex;
+    flex-wrap: wrap;
+}
+.PvPPoke{
+    display: flex;
+    margin: 0% 2.5% 2.5% 2.5%;
+    flex-wrap: wrap;    
+}

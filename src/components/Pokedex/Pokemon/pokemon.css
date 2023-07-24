@@ -11,6 +11,5 @@
 }
 .PokePic,.PokeInfo{
     color: white;
-    background-color: red;
-    border: blue solid 2px;
+    border: blue solid 1px;
 }
