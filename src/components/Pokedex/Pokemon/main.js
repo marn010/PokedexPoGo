@@ -16,24 +16,24 @@ export default function Pokemon() {
           <img src={Poke.PokePic} alt="Pokemon" />
         </div>
         <div className="PokeInfo">
-          <div className="PokeTipo">
-            Tipos:
+          <div className="PokeType">
+            <p>Tipos:</p>
             {Poke.Types.map((item, id) => {
               return <text key={id}>{item.Type + " "}</text>;
             })}
           </div>
           <div className="PokeFast">
-            Ataques Rapidos:
-            {Poke.FastMove.map((item,id)=>{
-              return <text key={id}>{item.FastMove + " "}</text>
+            <p>Ataques Rapidos:</p>
+            {Poke.FastMove.map((item, id) => {
+              return <text key={id}>{item.FastMove + " "}</text>;
             })}
           </div>
           <div className="PokeCharge">
-            Ataques Cargados:
-            {Poke.ChargedMove.map((item,id)=>{
-              return <text key={id}>{item.ChargedMove + " "}</text>
+            <p>Ataques Cargados:</p>
+            {Poke.ChargedMove.map((item, id) => {
+              return <text key={id}>{item.ChargedMove + " "}</text>;
             })}
-            </div>
+          </div>
         </div>
       </div>
     </div>

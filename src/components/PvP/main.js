@@ -9,27 +9,29 @@ export default function PvP() {
 
   return (
     <div className="PvP">
-      <h2>PvP Page</h2>
+      <h2 className="PvPTitle">PvP Page</h2>
       <div className="PvPLigas">
         <div className="PvPGL">
-          <h3>Great League</h3>
+          <h3 className="PvPTitle">Great League</h3>
           {GreatLeague.Great?.map((item, id) => {
-            let idx = id;
             return (
               <div className="PvPPoke" key={id}>
                 <div className="Rank">
-                  {item.id}#{id + 1}
+                  #{item.id}
+                  {/* {id + 1} */}
                 </div>
                 <div className="Poke">{item.Name}</div>
-                <div className="IV"></div>
-                <div className="CP"></div>
+                <div className="IV">
+                  IV's: {item.IV[0].ATK} {item.IV[0].DEF} {item.IV[0].STA}
+                </div>
+                <div className="CP">cp: {item.CP}</div>
                 <div className="Moves">
                   {item.Moves.map((item, id) => {
                     return (
                       <div key={id}>
-                        <div>{item.Name}</div>
+                        <p>{item.Name}</p>
+                        <p>{item.Energy}</p>
                         <div>{item.Type}</div>
-                        <div>{item.Energy}</div>
                       </div>
                     );
                   })}
@@ -39,7 +41,7 @@ export default function PvP() {
           })}
         </div>
         <div className="PvPUL">
-          <h3>Ultra League</h3>
+          <h3 className="PvPTitle">Ultra League</h3>
           {UltraLeague.Ultra?.map((item, id) => {
             return (
               <div className="PvPPoke" key={id}>
@@ -50,7 +52,7 @@ export default function PvP() {
           })}
         </div>
         <div className="PvPML">
-          <h3>Master League</h3>
+          <h3 className="PvPTitle">Master League</h3>
           {MasterLeague.Master?.map((item, id) => {
             return (
               <div className="PvPPoke" key={id}>

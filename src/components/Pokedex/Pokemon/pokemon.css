@@ -2,14 +2,29 @@
     color: brown;
     border: solid 1px green;    
 }
-.PokeDetail h1{
+.PokeDetail h3{
     display: block;
     width: 100%;
 }
 .PokeResume{
     display: flex;
+    background-color: rgba(245, 245, 245, 0.3);
 }
 .PokePic,.PokeInfo{
-    color: white;
-    border: blue solid 1px;
+    color: black;
+    /* border: blue solid 1px; */
+    
+}
+.PokeInfo{
+    display: block;
+    align-self: center;
+    font-size: 1.2rem;
+}
+.PokeType{
+    width: 100%;
+    text-align: center;
+    color: rgba(38, 150, 98, 1.0);
+}
+.PokeType p{
+    color: #000;
 }

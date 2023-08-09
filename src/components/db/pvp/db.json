@@ -6,6 +6,14 @@
             "id":"1",
             "Name":"Carbink",
             "Type":"Roca/Hada",
+            "CP":"1500",
+            "IV":[
+               {
+                  "ATK":"0",
+                  "DEF":"15",
+                  "STA":"15"
+               }
+            ],
             "Moves":[
                {
                   "Name":"Lanzarocas",
@@ -29,6 +37,76 @@
             "id":"2",
             "Name":"Segundo",
             "Type":"",
+            "CP":"",
+            "IV":[
+               {
+                  "ATK":"",
+                  "DEF":"",
+                  "STA":""
+               }
+            ],
+            "Moves":[
+               {
+                  "Name":"1",
+                  "Type":"",
+                  "Energy":""
+               },
+               {
+                  "Name":"2",
+                  "Type":"",
+                  "Energy":""
+   
+               },
+               {
+                  "Name":"3",
+                  "Type":"",
+                  "Energy":""
+               }
+            ]
+         },
+         {
+            "id":"3",
+            "Name":"Tercero",
+            "Type":"",
+            "CP":"",
+            "IV":[
+               {
+                  "ATK":"",
+                  "DEF":"",
+                  "STA":""
+               }
+            ],
+            "Moves":[
+               {
+                  "Name":"1",
+                  "Type":"",
+                  "Energy":""
+               },
+               {
+                  "Name":"2",
+                  "Type":"",
+                  "Energy":""
+   
+               },
+               {
+                  "Name":"3",
+                  "Type":"",
+                  "Energy":""
+               }
+            ]
+         },
+         {
+            "id":"4",
+            "Name":"Cuarto",
+            "Type":"",
+            "CP":"",
+            "IV":[
+               {
+                  "ATK":"",
+                  "DEF":"",
+                  "STA":""
+               }
+            ],
             "Moves":[
                {
                   "Name":"1",
@@ -56,6 +134,14 @@
             "id":"1",
             "Name":"Primero",
             "Type":"",
+            "CP":"1500",
+            "IV":[
+               {
+                  "ATK":"0",
+                  "DEF":"15",
+                  "STA":"15"
+               }
+            ],
             "Moves":[
                {
                   "Name":"",
@@ -84,6 +170,14 @@
             "id":"1",
             "Name":"",
             "Type":"",
+            "CP":"1500",
+            "IV":[
+               {
+                  "ATK":"0",
+                  "DEF":"15",
+                  "STA":"15"
+               }
+            ],
             "Moves":[
                {
                   "Name":"",

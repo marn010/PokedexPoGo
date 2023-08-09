@@ -5,9 +5,9 @@
     justify-content: center;
     text-align: center;
 }
-.PvP :first-child{
+.PvPTitle{
     width: 100%;
-    
+    color: rgba(35, 35, 35, 0.6);
 }
 .PvP div:first-of-type{
     text-align: center;
@@ -21,5 +21,24 @@
 .PvPPoke{
     display: flex;
     margin: 0% 2.5% 2.5% 2.5%;
+    max-width: 30%;
     flex-wrap: wrap;    
+}
+.Poke{
+    display: flex;
+    width: 100%;
+}
+.IV{
+    margin: 0% 2% 0% 0%;
+}
+.Moves{
+    width: 100%;
+    display: flex;
+}
+.Moves p{
+    display: block;
+    margin: 0% 0%;
+}
+.Moves div{
+    margin: 0% 1.5% 0% 1.5%;
 }

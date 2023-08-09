@@ -1,8 +1,6 @@
 .App{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: block;
+    /* align-items: center; */
     background-color: gray;
     height: 100vh;
 }
