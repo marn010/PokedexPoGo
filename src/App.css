@@ -2,5 +2,6 @@
     display: block;
     /* align-items: center; */
     background-color: gray;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
 }

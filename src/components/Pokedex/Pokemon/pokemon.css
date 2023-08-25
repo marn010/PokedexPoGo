@@ -1,6 +1,7 @@
 .PokeDetail{
     color: brown;
-    border: solid 1px green;    
+    border: solid 1px green;
+    text-align: center;    
 }
 .PokeDetail h3{
     display: block;
@@ -9,6 +10,7 @@
 .PokeResume{
     display: flex;
     background-color: rgba(245, 245, 245, 0.3);
+    justify-content: center;
 }
 .PokePic,.PokeInfo{
     color: black;

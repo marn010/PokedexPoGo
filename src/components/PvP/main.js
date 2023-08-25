@@ -28,7 +28,7 @@ export default function PvP() {
                 <div className="Moves">
                   {item.Moves.map((item, id) => {
                     return (
-                      <div key={id}>
+                      <div key={id} className="MovesItem">
                         <p>{item.Name}</p>
                         <p>{item.Energy}</p>
                         <div>{item.Type}</div>

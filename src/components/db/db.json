@@ -4,7 +4,7 @@
          "id":"0",
          "PokeNumber":"0001",
          "Name":"Bulbasaur",
-         "PokePic":"/assets/img/pokes/0001.png",
+         "PokePic":"1kyX3h2F8cJ5rhnkffJQ4RD-jzT3IfUlZ",
          "Types":[
             {
                "Type":"Planta",
@@ -31,7 +31,34 @@
          "id":"1",
          "PokeNumber":"0002",
          "Name":"Ivysaur",
-         "PokePic":"/assets/img/pokes/0002.png",
+         "PokePic":"1G3kCB5nG75tAqvLH6sxR_J_E1z6hxCzs",
+         "Types":[
+            {
+               "Type":"Planta",
+               "ColorType":"#9BCC50"
+            },
+            {
+               "Type":"Veneno",
+               "ColorType":"#B97FC9"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":"Hoja Afilada"
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"2",
+         "PokeNumber":"0003",
+         "Name":"Venasaur",
+         "PokePic":"15NLm6o8wiQlyWbYVx74USGvzONZeK9d8",
          "Types":[
             {
                "Type":"Planta",
@@ -55,13 +82,229 @@
          "Avaible":"Y"
       },
       {
-         "id":"2",
-         "PokeNumber":"0003",
-         "Name":"Venasaur",
-         "PokePic":"/assets/img/pokes/0003.png",
+         "id":"3",
+         "PokeNumber":"0004",
+         "Name":"Charmander",
+         "PokePic":"11xgMp8M2Z0vpz-1hRidwM6_UHzQ6nXYi",
          "Types":[
             {
-               "Type":"Planta",
+               "Type":"Fuego",
+               "ColorType":"#FD7D24"
+            }
+            
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"4",
+         "PokeNumber":"0005",
+         "Name":"Charmeleon",
+         "PokePic":"1d3tQQM4vgdv_3AWKiOc6gwRlQunkbOQV",
+         "Types":[
+            {
+               "Type":"Fuego",
+               "ColorType":"#FD7D24"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":" "
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"5",
+         "PokeNumber":"0006",
+         "Name":"Charizard",
+         "PokePic":"1409dy9uLv9R-zQzIIdUlAEZMHfp_k7dd",
+         "Types":[
+            {
+               "Type":"Fuego",
+               "ColorType":"#FD7D24"
+            },
+            {
+               "Type":"Volador",
+               "ColorType":"#3DC7EF"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"6",
+         "PokeNumber":"0007",
+         "Name":"Squirtle",
+         "PokePic":"1BaR8eLsmZXFFlJOEzkL-NSjxaBTzzeK0",
+         "Types":[
+            {
+               "Type":"Agua",
+               "ColorType":"#4491C3"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"7",
+         "PokeNumber":"0008",
+         "Name":"Wartortle",
+         "PokePic":"1ItYiNZAinAW3mRqbqShbPGOTjcnB12c8",
+         "Types":[
+            {
+               "Type":"Agua",
+               "ColorType":"#"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"8",
+         "PokeNumber":"0009",
+         "Name":"Blastoise",
+         "PokePic":"13Rw_sJPQk1yqeN6gJuwqne7THJoW-HVv",
+         "Types":[
+            {
+               "Type":"Agua",
+               "ColorType":"#"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"9",
+         "PokeNumber":"0010",
+         "Name":"Caterpie",
+         "PokePic":"1lcu_JUPrHue2If-qaPhBAAtLT_-EYAOp",
+         "Types":[
+            {
+               "Type":"Bicho",
+               "ColorType":"#729F3F"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"10",
+         "PokeNumber":"0011",
+         "Name":"Metapod",
+         "PokePic":"1IEOCSOzjMoozS83dV3zFj2eUFTJaG4VA",
+         "Types":[
+            {
+               "Type":"Bicho",
+               "ColorType":"#"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"11",
+         "PokeNumber":"0012",
+         "Name":"Butterfree",
+         "PokePic":"1dtrPSSOMXj48Fs2_B9zdzFDXTy-oSP0Z",
+         "Types":[
+            {
+               "Type":"Bicho",
+               "ColorType":"#"
+            },
+            {
+               "Type":"Volador",
+               "ColorType":"#"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"12",
+         "PokeNumber":"0013",
+         "Name":"Weedle",
+         "PokePic":"1zSFwmCIoNLkGCzwuyLZA9ds0lPD4whBk",
+         "Types":[
+            {
+               "Type":"Bicho",
                "ColorType":"#"
             },
             {
@@ -76,7 +319,61 @@
          ],
          "ChargedMove":[
             {
-               "ChargedMove":"Hoja Afilada"
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"13",
+         "PokeNumber":"0014",
+         "Name":"Kakuna",
+         "PokePic":"1RacFa8YTC4kVAEgP-McbvqlQoAIb2ofA",
+         "Types":[
+            {
+               "Type":"Bicho",
+               "ColorType":"#"
+            },
+            {
+               "Type":"Veneno",
+               "ColorType":"#"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
+            }
+         ],
+         "Avaible":"Y"
+      },
+      {
+         "id":"14",
+         "PokeNumber":"0015",
+         "Name":"Beedrill",
+         "PokePic":"1I6DkJ4dtB-PCVTyoqSM4yVQBcr-Cc1Jv",
+         "Types":[
+            {
+               "Type":"Bicho",
+               "ColorType":"#"
+            },
+            {
+               "Type":"Veneno",
+               "ColorType":"#"
+            }
+         ],
+         "FastMove":[
+            {
+               "FastMove":"Placaje"
+            }
+         ],
+         "ChargedMove":[
+            {
+               "ChargedMove":""
             }
          ],
          "Avaible":"Y"

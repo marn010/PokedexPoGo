@@ -34,6 +34,7 @@
 .Moves{
     width: 100%;
     display: flex;
+    margin: 5% 0%;
 }
 .Moves p{
     display: block;
@@ -41,4 +42,10 @@
 }
 .Moves div{
     margin: 0% 1.5% 0% 1.5%;
+    
+}
+.MovesItem{
+    padding: 0% 4%;
+    border: solid 1px pink;
+    border-radius: 10px;
 }
