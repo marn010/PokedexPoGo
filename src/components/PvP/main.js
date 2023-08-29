@@ -23,14 +23,14 @@ export default function PvP() {
                   {item.Types.map((item, id) => {
                     let type = item.Type;
                     return (
-                      <text
+                      <span
                         style={{
                           backgroundColor: color[type].ColorType,
                           color: color[type].ColorFont,
                         }}
                       >
                         {item.Type}
-                      </text>
+                      </span>
                     );
                   })}
                 </div>
@@ -45,7 +45,7 @@ export default function PvP() {
                       <div key={id} className="MovesItem">
                         <p>{item.Name}</p>
                         <p>{item.Energy}</p>
-                        <text
+                        <span
                           className=""
                           style={{
                             backgroundColor: color[type].ColorType,
@@ -53,7 +53,7 @@ export default function PvP() {
                           }}
                         >
                           {item.Type}
-                        </text>
+                        </span>
                       </div>
                     );
                   })}

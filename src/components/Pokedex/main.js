@@ -1,11 +1,13 @@
 import "./pokedex.css";
 
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom"; */
 
 import db from "../db/db.json";
 import color from "../db/dbTypes.json";
 import React, { useContext } from "react";
 import GlobalState from "../../globalState";
+import SearchBar from "../Search/SearchBar";
+import PokemonCard from "./PokemonCard";
 
 const Pokedex = (props) => {
   const { state: globalState } = useContext(GlobalState);
@@ -13,47 +15,18 @@ const Pokedex = (props) => {
   /* console.log("Try: " + db.pokes[0].id) */
   return (
     <div className="Pokedex">
-      <h2>Pokedex Page!</h2>
-      {db.pokes.filter((item) =>
-          item.Name?.toLowerCase().includes
-          (globalState.searchValue)).map((item) => {
-            let id = item.id
+      <div className="PokedexTitle">
+        <h2>Pokedex Page!</h2>
+        <SearchBar />
+      </div>
+      {db.pokes
+        .filter((item) =>
+          item.Name?.toLowerCase().includes(globalState.searchValue)
+        )
+        .map((item) => {
+          let id = item.id;
           return (
-            <div className="Pokemon" key={id}>
-              <div className="PokemonPic">
-                <Link
-                  to="/Pokemon"
-                  state={{
-                    id: db.pokes[id].id,
-                    db: db,
-                    color: color,
-                  }}
-                >
-                  <img src={item.PokePic} alt={item.Name} />
-                </Link>
-              </div>
-              <div className="PokemonInfo">
-                <text>
-                  # {db.pokes[id].PokeNumber + " " + db.pokes[id].Name}
-                </text>
-                <p>Tipos: </p>
-                {db.pokes[id].Types.map((item, idx) => {
-                  let xpoke = item.Type;
-                  return (
-                    <text
-                      key={idx}
-                      className="PokeTypes"
-                      style={{
-                        background: color[xpoke].ColorType,
-                        color: color[xpoke].ColorFont,
-                      }}
-                    >
-                      {item.Type}{" "}
-                    </text>
-                  );
-                })}
-              </div>
-            </div>
+            <PokemonCard id={id} item={item} db={db}color={color}/>
           );
         })}
     </div>
@@ -79,12 +52,12 @@ export default Pokedex;
                 </Link>
               </div>
               <div className="PokemonInfo">
-                <text># {db.pokes[id].PokeNumber + " " + db.pokes[id].Name}</text>
+                <span># {db.pokes[id].PokeNumber + " " + db.pokes[id].Name}</span>
                 <p>Tipos: </p>
                 {db.pokes[id].Types.map((item, idx) => {
                   let xpoke = item.Type;
                   return (
-                    <text
+                    <span
                       key={idx}
                       className="PokeTypes"
                       style={{
@@ -93,7 +66,7 @@ export default Pokedex;
                       }}
                     >
                       {item.Type}{" "}
-                    </text>
+                    </span>
                   );
                 })}
               </div>
@@ -125,14 +98,14 @@ export default Pokedex;
                 </Link>
               </div>
               <div className="PokemonInfo">
-                <text>
+                <span>
                   # {db.pokes[id].PokeNumber + " " + db.pokes[id].Name}
-                </text>
+                </span>
                 <p>Tipos: </p>
                 {db.pokes[id].Types.map((item, idx) => {
                   let xpoke = item.Type;
                   return (
-                    <text
+                    <span
                       key={idx}
                       className="PokeTypes"
                       style={{
@@ -141,7 +114,7 @@ export default Pokedex;
                       }}
                     >
                       {item.Type}{" "}
-                    </text>
+                    </span>
                   );
                 })}
               </div>

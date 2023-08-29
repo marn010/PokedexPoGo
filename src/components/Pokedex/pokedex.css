@@ -9,9 +9,11 @@
     background-color: rgba(255, 255, 255, 0.2);
     justify-content: center;
 }
-.Pokedex h2{
+.PokedexTitle{
     width: 100% ;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Pokemon{

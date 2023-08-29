@@ -1,0 +1,7 @@
+.SearchBar{
+  width: auto;
+  display: flex;
+  margin: auto;
+  position: absolute;
+  right: 10%;
+}
