@@ -4,7 +4,7 @@
          "id":"0",
          "PokeNumber":"0001",
          "Name":"Bulbasaur",
-         "PokePic":"./assets/img/pokes/0001.png",
+         "PokePic":"1kyX3h2F8cJ5rhnkffJQ4RD-jzT3IfUlZ",
          "Types":[
             {
                "Type":"Planta",
@@ -31,7 +31,7 @@
          "id":"1",
          "PokeNumber":"0002",
          "Name":"Ivysaur",
-         "PokePic":"./assets/img/pokes/0002.png",
+         "PokePic":"1G3kCB5nG75tAqvLH6sxR_J_E1z6hxCzs",
          "Types":[
             {
                "Type":"Planta",
@@ -58,7 +58,7 @@
          "id":"2",
          "PokeNumber":"0003",
          "Name":"Venasaur",
-         "PokePic":"./assets/img/pokes/0003.png",
+         "PokePic":"15NLm6o8wiQlyWbYVx74USGvzONZeK9d8",
          "Types":[
             {
                "Type":"Planta",
@@ -85,7 +85,7 @@
          "id":"3",
          "PokeNumber":"0004",
          "Name":"Charmander",
-         "PokePic":"./assets/img/pokes/0004.png",
+         "PokePic":"11xgMp8M2Z0vpz-1hRidwM6_UHzQ6nXYi",
          "Types":[
             {
                "Type":"Fuego",
@@ -109,7 +109,7 @@
          "id":"4",
          "PokeNumber":"0005",
          "Name":"Charmeleon",
-         "PokePic":"./assets/img/pokes/0005.png",
+         "PokePic":"1d3tQQM4vgdv_3AWKiOc6gwRlQunkbOQV",
          "Types":[
             {
                "Type":"Fuego",
@@ -132,7 +132,7 @@
          "id":"5",
          "PokeNumber":"0006",
          "Name":"Charizard",
-         "PokePic":"./assets/img/pokes/0006.png",
+         "PokePic":"1409dy9uLv9R-zQzIIdUlAEZMHfp_k7dd",
          "Types":[
             {
                "Type":"Fuego",
@@ -159,7 +159,7 @@
          "id":"6",
          "PokeNumber":"0007",
          "Name":"Squirtle",
-         "PokePic":"./assets/img/pokes/0007.png",
+         "PokePic":"1BaR8eLsmZXFFlJOEzkL-NSjxaBTzzeK0",
          "Types":[
             {
                "Type":"Agua",
@@ -182,7 +182,7 @@
          "id":"7",
          "PokeNumber":"0008",
          "Name":"Wartortle",
-         "PokePic":"./assets/img/pokes/0008.png",
+         "PokePic":"1ItYiNZAinAW3mRqbqShbPGOTjcnB12c8",
          "Types":[
             {
                "Type":"Agua",
@@ -205,7 +205,7 @@
          "id":"8",
          "PokeNumber":"0009",
          "Name":"Blastoise",
-         "PokePic":"./assets/img/pokes/0009.png",
+         "PokePic":"13Rw_sJPQk1yqeN6gJuwqne7THJoW-HVv",
          "Types":[
             {
                "Type":"Agua",
@@ -228,7 +228,7 @@
          "id":"9",
          "PokeNumber":"0010",
          "Name":"Caterpie",
-         "PokePic":"./assets/img/pokes/0010.png",
+         "PokePic":"1lcu_JUPrHue2If-qaPhBAAtLT_-EYAOp",
          "Types":[
             {
                "Type":"Bicho",
@@ -251,7 +251,7 @@
          "id":"10",
          "PokeNumber":"0011",
          "Name":"Metapod",
-         "PokePic":"./assets/img/pokes/0011.png",
+         "PokePic":"1IEOCSOzjMoozS83dV3zFj2eUFTJaG4VA",
          "Types":[
             {
                "Type":"Bicho",
@@ -274,7 +274,7 @@
          "id":"11",
          "PokeNumber":"0012",
          "Name":"Butterfree",
-         "PokePic":"./assets/img/pokes/0012.png",
+         "PokePic":"1dtrPSSOMXj48Fs2_B9zdzFDXTy-oSP0Z",
          "Types":[
             {
                "Type":"Bicho",
@@ -301,7 +301,7 @@
          "id":"12",
          "PokeNumber":"0013",
          "Name":"Weedle",
-         "PokePic":"./assets/img/pokes/0013.png",
+         "PokePic":"1zSFwmCIoNLkGCzwuyLZA9ds0lPD4whBk",
          "Types":[
             {
                "Type":"Bicho",
@@ -328,7 +328,7 @@
          "id":"13",
          "PokeNumber":"0014",
          "Name":"Kakuna",
-         "PokePic":"./assets/img/pokes/0014.png",
+         "PokePic":"1RacFa8YTC4kVAEgP-McbvqlQoAIb2ofA",
          "Types":[
             {
                "Type":"Bicho",
@@ -355,7 +355,7 @@
          "id":"14",
          "PokeNumber":"0015",
          "Name":"Beedrill",
-         "PokePic":"./assets/img/pokes/0015.png",
+         "PokePic":"1I6DkJ4dtB-PCVTyoqSM4yVQBcr-Cc1Jv",
          "Types":[
             {
                "Type":"Bicho",

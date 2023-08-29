@@ -1,6 +1,7 @@
 import "./main.css";
 
 import db from "../db/pvp/db.json";
+import color from "../db/dbTypes.json";
 
 export default function PvP() {
   let GreatLeague = db.rank[0];
@@ -16,22 +17,43 @@ export default function PvP() {
           {GreatLeague.Great?.map((item, id) => {
             return (
               <div className="PvPPoke" key={id}>
-                <div className="Rank">
-                  #{item.id}
-                  {/* {id + 1} */}
+                <div className="Rank">#{item.id}</div>
+                <div className="Poke">
+                  {item.Name}
+                  {item.Types.map((item, id) => {
+                    let type = item.Type;
+                    return (
+                      <text
+                        style={{
+                          backgroundColor: color[type].ColorType,
+                          color: color[type].ColorFont,
+                        }}
+                      >
+                        {item.Type}
+                      </text>
+                    );
+                  })}
                 </div>
-                <div className="Poke">{item.Name}</div>
                 <div className="IV">
                   IV's: {item.IV[0].ATK} {item.IV[0].DEF} {item.IV[0].STA}
                 </div>
                 <div className="CP">cp: {item.CP}</div>
                 <div className="Moves">
                   {item.Moves.map((item, id) => {
+                    let type = item.Type;
                     return (
                       <div key={id} className="MovesItem">
                         <p>{item.Name}</p>
                         <p>{item.Energy}</p>
-                        <div>{item.Type}</div>
+                        <text
+                          className=""
+                          style={{
+                            backgroundColor: color[type].ColorType,
+                            color: color[type].ColorFont,
+                          }}
+                        >
+                          {item.Type}
+                        </text>
                       </div>
                     );
                   })}

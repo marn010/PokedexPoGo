@@ -5,7 +5,14 @@
          {
             "id":"1",
             "Name":"Carbink",
-            "Type":"Roca/Hada",
+            "Types":[
+               {
+                  "Type":"Roca"
+               },
+               {
+                  "Type":"Hada"
+               }
+            ],
             "CP":"1500",
             "IV":[
                {
@@ -36,7 +43,14 @@
          {
             "id":"2",
             "Name":"Segundo",
-            "Type":"",
+            "Types":[
+               {
+                  "Type":"Roca"
+               },
+               {
+                  "Type":"Hada"
+               }
+            ],
             "CP":"",
             "IV":[
                {
@@ -48,18 +62,18 @@
             "Moves":[
                {
                   "Name":"1",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
                },
                {
                   "Name":"2",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
    
                },
                {
                   "Name":"3",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
                }
             ]
@@ -67,7 +81,14 @@
          {
             "id":"3",
             "Name":"Tercero",
-            "Type":"",
+            "Types":[
+               {
+                  "Type":"Roca"
+               },
+               {
+                  "Type":"Hada"
+               }
+            ],
             "CP":"",
             "IV":[
                {
@@ -79,18 +100,18 @@
             "Moves":[
                {
                   "Name":"1",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
                },
                {
                   "Name":"2",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
    
                },
                {
                   "Name":"3",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
                }
             ]
@@ -98,7 +119,14 @@
          {
             "id":"4",
             "Name":"Cuarto",
-            "Type":"",
+            "Types":[
+               {
+                  "Type":"Roca"
+               },
+               {
+                  "Type":"Hada"
+               }
+            ],
             "CP":"",
             "IV":[
                {
@@ -110,18 +138,18 @@
             "Moves":[
                {
                   "Name":"1",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
                },
                {
                   "Name":"2",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
    
                },
                {
                   "Name":"3",
-                  "Type":"",
+                  "Type":"Roca",
                   "Energy":""
                }
             ]

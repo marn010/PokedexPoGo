@@ -1,26 +1,48 @@
-import "./Navigation.css";
-
+import { useContext } from "react";
 import { Link } from "react-router-dom";
 
-export default function Navigation() {
+import "./Navigation.css";
+import GlobalState from "../../globalState";
+
+const  Navigation =() => {
+  const { state: globalState } = useContext(GlobalState);
+  const { updateSearchValue } = useContext(GlobalState);
+  /* const { updateToken } = useContext(GlobalState); */
+  const searchAnyElse = (e) => {
+    e.preventDefault();
+    console.log(globalState.searchValue);
+    /* setSearchValue(globalState.searchValue); */
+    /* updateSearchValue(searchValue.toLowerCase()); */
+  };
   return (
     <div className="NavBar">
       <Link to="/">PokemonGo</Link>
-      <div className="Navitem">
+      {/* <div className="Navitem">
         <Link to="/">Home </Link>
-      </div>
+      </div> */}
       <div className="Navitem">
         <Link to="/Pokedex">Pokedex </Link>
       </div>
       <div className="Navitem">
         <Link to="/PvP">PvP</Link>
       </div>
-      <div className="Navitem">
+      {/* <div className="Navitem">
       <Link to="/Raids">Raids </Link>
-      </div>
-      <div className="Navitem">
+      </div> */}
+      {/* <div className="Navitem">
         <p></p>
-      </div>
+      </div> */}
+      <form inline onSubmit={searchAnyElse}>
+        <input
+          type="text"
+          name="search"
+          id="search"
+          onChange={(e) => updateSearchValue(e.target.value.toLowerCase())}
+          placeholder="Search..."
+          className=""
+        />
+      </form>
     </div>
   );
 }
+export default Navigation;

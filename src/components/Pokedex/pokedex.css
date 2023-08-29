@@ -38,9 +38,11 @@
     text-align: center;
     background-color: rgba(250, 250, 250, 0.25);
     border-radius: 20px;
-    overflow: hidden;
+    padding: 5% 0%;
 }
 .PokeTypes{
-    border: solid 1px pink;
+    border: solid 1px white;
     border-radius: 5px;
+    padding: 0% 5%;
+    margin: 0% 1%;
 }

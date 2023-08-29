@@ -28,6 +28,11 @@
     display: flex;
     width: 100%;
 }
+.Poke text{
+    border-radius: 8px;
+    padding: 1% 2%;
+    margin: 0% 1%;
+}
 .IV{
     margin: 0% 2% 0% 0%;
 }
@@ -48,4 +53,11 @@
     padding: 0% 4%;
     border: solid 1px pink;
     border-radius: 10px;
+    padding: 2% 0%;
+}
+.MovesItem text{
+    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    padding: 2% 8%;
 }

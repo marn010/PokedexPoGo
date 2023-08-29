@@ -1,6 +1,7 @@
 .Header{
     display: flex;
-    width: 100vw;
+    width: 50%;
+    margin: auto;
     height: 10vh;
     justify-content: space-evenly;
     color: blue;
