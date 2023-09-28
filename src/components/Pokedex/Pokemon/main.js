@@ -3,6 +3,7 @@ import { useLocation } from "react-router-dom";
 import "./pokemon.css";
 import PokemonTypes from "./PokemonTypes";
 import PokemonAtacks from "./PokemonAtacks";
+import Goback from "../../GoBack/GoBackBtn";
 
 export default function Pokemon() {
   let id = useLocation();
@@ -22,6 +23,7 @@ export default function Pokemon() {
             <PokemonTypes Poke={Poke} color={color} />
           </div>
           <PokemonAtacks Poke={Poke} />
+          <Goback />
         </div>
       </div>
     </div>

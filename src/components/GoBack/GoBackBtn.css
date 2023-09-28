@@ -1,0 +1,15 @@
+.BackBTN{
+  width: 100px;
+  padding: 2% 0%;
+  margin: 2% 0%;
+  background-color: rgba(50, 50, 150, 0.8);
+  border-color: transparent;
+  border-radius: 15px;
+  color: white;
+  /* position: absolute;
+  right: 5%;
+  top: 15%; */
+}
+.BackBTN:hover{
+  background-color: rgba(50, 50, 50, 0.8);
+}

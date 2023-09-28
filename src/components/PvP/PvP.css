@@ -14,7 +14,7 @@
     color: pink;   
 }
 
-.PvPGL{
+.PvPGL, .PvPUL, .PvPML{
     display: flex;
     flex-wrap: wrap;
 }
