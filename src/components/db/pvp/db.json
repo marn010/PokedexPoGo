@@ -2,6 +2,44 @@
    "Great":[
       {
          "id":"1",
+         "Name":"Medichan",
+         "Types":[
+            {
+               "Type":"Lucha"
+            },
+            {
+               "Type":"Psiquico"
+            }
+         ],
+         "CP":"1499",
+         "IV":[
+            {
+               "ATK":"5",
+               "DEF":"15",
+               "STA":"15"
+            }
+         ],
+         "Moves":[
+            {
+               "Name":"Counter",
+               "Type":"Lucha",
+               "Energy":"3.5"
+            },
+            {
+               "Name":"Puño Hielo",
+               "Type":"Hielo",
+               "Energy":"40"
+
+            },
+            {
+               "Name":"Psiquico",
+               "Type":"Psiquico",
+               "Energy":"55"
+            }
+         ]
+      },
+      {
+         "id":"2",
          "Name":"Carbink",
          "Types":[
             {
@@ -11,10 +49,10 @@
                "Type":"Hada"
             }
          ],
-         "CP":"1500",
+         "CP":"1498",
          "IV":[
             {
-               "ATK":"0",
+               "ATK":"4",
                "DEF":"15",
                "STA":"15"
             }
@@ -35,44 +73,6 @@
                "Name":"Fuerza Lunar",
                "Type":"Hada",
                "Energy":"60"
-            }
-         ]
-      },
-      {
-         "id":"2",
-         "Name":"Segundo",
-         "Types":[
-            {
-               "Type":"Roca"
-            },
-            {
-               "Type":"Hada"
-            }
-         ],
-         "CP":"",
-         "IV":[
-            {
-               "ATK":"",
-               "DEF":"",
-               "STA":""
-            }
-         ],
-         "Moves":[
-            {
-               "Name":"1",
-               "Type":"Roca",
-               "Energy":""
-            },
-            {
-               "Name":"2",
-               "Type":"Roca",
-               "Energy":""
-
-            },
-            {
-               "Name":"3",
-               "Type":"Roca",
-               "Energy":""
             }
          ]
       },

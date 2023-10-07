@@ -2,7 +2,7 @@ import "./pokedex.css";
 
 /* import { Link } from "react-router-dom"; */
 
-import db from "../db/db.json";
+import db from "../db/dbonline.json";
 import color from "../db/dbTypes.json";
 import React, { useContext } from "react";
 import GlobalState from "../../globalState";
@@ -11,7 +11,7 @@ import PokemonCard from "./PokemonCard";
 
 const Pokedex = (props) => {
   const { state: globalState } = useContext(GlobalState);
-  /* let url ="https://drive.google.com/uc?export=view&id="; */
+//  let url ="https://www.wealthandfreedompackage.com/images/2023/10/07/";
   /* console.log("Try: " + db.pokes[0].id) */
   return (
     <div className="Pokedex">
